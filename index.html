@@ -25,8 +25,8 @@
 </head>
 
 <body>
-    <div style="display: inline-block; width: 450px; height: 230px; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background-image: url(./image/1.png); background-size: cover; background-repeat: no-repeat;">
-        <canvas id='canvas' width="450" height="230" style="border: 1px solid gray;"> </canvas>
+    <div style="display: inline-block; width: 450px; height: 240px; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background-image: url(./image/1.png); background-size: cover; background-repeat: no-repeat;">
+        <canvas id='canvas' width="450" height="240" style="border: 1px solid gray;"> </canvas>
     </div>
     <button id="btn" onclick="location.reload();">다시</button>
 
@@ -34,7 +34,7 @@
         function scratch(_id, option = {}) {
             const canvas = document.getElementById(_id);
             canvas.width = 450;
-            canvas.height = 230;
+            canvas.height = 240;
             let ctx = canvas.getContext('2d');
             let width = canvas.width;
             let height = canvas.height;
